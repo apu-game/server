@@ -1,0 +1,8 @@
+*
+!views
+!.ruby-version
+!.ruby-gemset
+!config.ru
+!Gemfile
+!server.rb
+!server.sh
