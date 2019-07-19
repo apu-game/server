@@ -13,7 +13,7 @@ repodir = File.expand_path("../repo", __FILE__)
 Dir.chdir(rootdir)
 
 unless File.directory?(repodir)
-	system("git clone #{repourl}")
+	system("git clone #{repourl} #{repodir}")
 else
 	Dir.chdir(repodir)
 	system("git pull")
